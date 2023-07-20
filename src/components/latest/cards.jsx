@@ -8,18 +8,35 @@ const Cards = () => {
   const [search, setSearch] = useState("");
   const [gamesLoad, setGamesLoad] = useState(false);
 
+  const cutString = (title) => {
+    if (title.length > 50) {
+      return title.substring(0, 50) + "...";
+    }
+    return title;
+  };
+
+  const convertPrice = (val) => {
+    const formatter = new Intl.NumberFormat("id-ID", {
+      style: "currency",
+      currency: "IDR",
+    });
+
+    if (val === 0) {
+      return "FREE";
+    } else {
+      return formatter.format(val);
+    }
+  };
+
   const createCardLoading = (index) => {
     return (
-      <div
-        key={index}
-        className="animate-pulse flex flex-col w-full border rounded-md bg-slate-200"
-      >
-        <div className="w-full p-1">
-          <div className="w-full h-[12.5rem] bg-slate-400" />
+      <div key={index} className="animate-pulse flex flex-col w-52">
+        <div className="w-full  rounded-xl p-1">
+          <div className="w-full h-[12rem] rounded-xl bg-gray-300" />
         </div>
-        <div className="w-[9.375] h-full p-6">
-          <h1 className="w-full h-2 mb-2 rounded bg-slate-400"></h1>
-          <p className="w-20 h-2 rounded bg-slate-400"></p>
+        <div className="w-[9.375] h-full px-2 py-4">
+          <h1 className="w-full h-2 mb-2 rounded bg-gray-300"></h1>
+          <p className="w-20 h-2 rounded bg-gray-300"></p>
         </div>
       </div>
     );
@@ -30,14 +47,14 @@ const Cards = () => {
       <Link
         to={`game-details/${id}`}
         key={id}
-        className="flex flex-col w-full border rounded-md"
+        className="flex flex-col w-52 rounded-xl  overflow-hidden group"
       >
-        <div className="w-full h-full">
-          <img className="w-full" src={poster} alt="" />
+        <div className="w-full h-full p-1  group-hover:border-2 rounded-xl border-blue-900">
+          <img className="w-full rounded-xl" src={poster} alt="" />
         </div>
-        <div className="w-full h-full p-6">
-          <h1>{title}</h1>
-          <p>{price}</p>
+        <div className="w-full h-full px-2">
+          <h1>{cutString(title)}</h1>
+          <p>{convertPrice(price)}</p>
         </div>
       </Link>
     );
@@ -45,7 +62,6 @@ const Cards = () => {
 
   const createCards = () => {
     const cards = [];
-
     for (let i = 0; i < 10; i++) {
       cards.push(createCardLoading(i));
     }

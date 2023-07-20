@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "EA SPORTS™ FIFA 23",
+    "title2": "EA SPORTS™ FIFA 23 PS5™ (Simplified Chinese, English, Korean, Japanese, Traditional Chinese)",
+    "price": 1009000,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202301/0312/yM0eeJui8AFByeP5BC5XV5j9.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1702/e0baea3991c13f0cd9a15890c24562c6033c58202053899b.png?w=1920&thumb=false"
+  },
+  {
+    "id": "2",
+    "title": "EA SPORTS FC™ 24",
+    "title2": "EA SPORTS FC™ 24 Ultimate Edition PS4™ & PS5™ (Game)",
+    "price": 1409000,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202307/0710/7f2cb30474b1264f2ab7339d7d82005610a5349920cddc75.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202307/0710/05cc7fbbcb31e6f7f83e28a823b79bb7473e52301c481008.png?w=1920&thumb=false"
+  },
+  {
+    "id": "3",
+    "title": "eFootball™ 2023",
+    "title2": "eFootball™ 2023 (Simplified Chinese, English, Korean, Japanese, Traditional Chinese)",
+    "price": 0,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202306/0708/b7f3e4bbcfa3125d3c5118fb1a4e9500bdc6c9388263a39d.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202306/0708/f43133f22098747ce786d3b12327b98b68b569afad8ebb80.jpg?w=1920&thumb=false"
+  },
+  {
+    "id": "4",
+    "title": "Grand Theft Auto V (PlayStation®5)",
+    "title2": "Grand Theft Auto Online (PlayStation®5) (Simplified Chinese, English, Korean, Traditional Chinese)",
+    "price": 157500,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202202/2816/K6mmm89oNII1iI1aqaClO0wh.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202203/0302/tsPK3f1LykIBkCUxAEdPMfeZ.png?w=1920&thumb=false"
+  },
+  {
+    "id": "5",
+    "title": "Call of Duty®: Modern Warfare® II",
+    "title2": "Call of Duty®: Modern Warfare® II - Cross-Gen Bundle (Simplified Chinese, English, Korean, Thai, Traditional Chinese)",
+    "price": 563750,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1700/f6ce768740c0835b7c9eece6c096b92bcf6793f5363aed14.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202205/2800/1inUo7VTdbmAD9c1efdZGB9R.png?w=1920&thumb=false"
+  },
+  {
+    "id": "6",
+    "title": "Mortal Kombat 1 Premium Edition (Game)",
+    "title2": "Mortal Kombat 1 (English/Chinese Ver.)",
+    "price": 1590000,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202305/1515/9978096069b4db29c36788e6da61f69941207341ba480e4d.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202305/1515/c8388641302e1fd8f8f1044f13b398027f188eb695a0d652.jpg?w=1920&thumb=false"
+  },
+  {
+    "id": "7",
+    "title": "Marvel’s Spider-Man 2 Digital Deluxe Edition",
+    "title2": "Marvel’s Spider-Man 2 Digital Deluxe Edition (Game)",
+    "price": 1179000,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/bf9002aa05ee78610179d978eb5f1cb877cfd81828507f33.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/0357d5697ac91c4a9a6493eb0d02654006e417b4e0dbb351.png?w=1920&thumb=false"
+  },
+  {
+    "id": "8",
+    "title": "NBA 2K24 25th Anniversary Edition",
+    "title2": "NBA 2K24 25th Anniversary Edition (Game)",
+    "price": 2099000,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202306/2818/9db257e3b95427ae1d4a3da5369788f171e93cf8e93b0165.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202306/2818/62a34713b467e8b925f4cf1dac91b7cf8adb243d4c7eca37.jpg?w=1920&thumb=false"
+  },
+  {
+    "id": "9",
+    "title": "Avatar: Frontiers of Pandora™",
+    "title2": "Avatar: Frontiers of Pandora™ (English/Chinese/Korean/Japanese Ver.)",
+    "price": 1029000,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202306/0113/38ad0cc5b92af440d46ccebf5d1f271213d656684fce3385.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202306/0113/c4b769b8aebe583d5972b22ea923fde2ddc7e696b0f794d5.jpg?w=1920&thumb=false"
+  },
+  {
+    "id": "10",
+    "title": "Assassin's Creed® Mirage Deluxe Edition (Game)",
+    "title2": "Assassin's Creed® Mirage Deluxe Edition (Game)",
+    "price": 879000,
+    "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202304/2714/d7a1f9339c13b4284fcba2acd8d5e4ba2867fa6ef3b8b857.png?w=230&thumb=false",
+    "poster2": "https://image.api.playstation.com/vulcan/ap/rnd/202304/2714/92a7017693d8155b2838cb6cf7ec19320dc563bf059b8547.jpg?w=1920&thumb=false"
+  }
+]

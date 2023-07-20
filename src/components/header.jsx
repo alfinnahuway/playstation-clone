@@ -11,12 +11,12 @@ const Header = () => {
     setAcive(!active);
   };
 
-  const { isAuthenticated, logout, userName, avatar, userEmail } =
+  const { isAuthenticated, logout, userName, avatar, userEmail, setErrMsg } =
     useContext(AuthContext);
   return (
     <header className="w-full fixed shadow-xl z-10 bg-white">
       <nav className="w-[95%] mx-auto flex justify-between items-center">
-        <div>Playstation</div>
+        <Link to={"/"}>Playstation</Link>
         <div className="px-10">
           <ul className="w-full h-20 flex items-center gap-4">
             {navList.map((items) => (
@@ -55,6 +55,7 @@ const Header = () => {
           ) : (
             <Link
               to={"login-pages"}
+              onClick={setErrMsg("")}
               className="w-20 px-4 py-1 rounded-2xl bg-[#0070cc] text-white  font-semibold hover:bg-[#005499] text-sm"
             >
               Sign In

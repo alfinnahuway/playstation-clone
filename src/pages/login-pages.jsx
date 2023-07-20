@@ -8,6 +8,7 @@ const LoginPages = () => {
   const [next, setNext] = useState(false);
   const emailRef = useRef();
   const errRef = useRef();
+  const emailAtt = document.getElementById("email");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -92,13 +93,13 @@ const LoginPages = () => {
                   }`}
                 >
                   <input
-                    type="email"
+                    type="text"
                     id="email"
+                    name="email"
                     ref={emailRef}
                     autoComplete="off"
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
-                    required
                     className="outline-none py-1 px-3 border rounded-sm"
                   />
                   <button
