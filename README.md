@@ -20,7 +20,7 @@ I would like to introduce my frontend project aimed at creating a simple clone o
 
 ## Project Website
 
-You can check out the project live at [Project Website](https://www.example.com/project-website)](https://gleaming-wisp-e6bbb5.netlify.app/).
+You can check out the project live at [Project Website](https://www.example.com/project-website)(https://gleaming-wisp-e6bbb5.netlify.app/).
 
 ## Motivation
 
