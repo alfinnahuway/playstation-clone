@@ -8,6 +8,8 @@ I would like to introduce my frontend project aimed at creating a simple clone o
 
 - **Data Search**: There is a search feature that allows users to search for games based on title or other characteristics. This helps users find the games they are looking for more easily.
 
+- **Loading Screen**: A loading screen has been implemented to enhance user experience while fetching data from the API. It provides feedback to users that the data is being loaded.
+
 ## Related Technologies
 
 - **ReactJS**: Used as the primary framework for developing components and user interface interactions.
@@ -15,6 +17,10 @@ I would like to introduce my frontend project aimed at creating a simple clone o
 - **Tailwind CSS**: Utilized for styling and quickly structuring the project's appearance.
 
 - **Vite**: Used as a development tool to enhance frontend development productivity.
+
+## Project Website
+
+You can check out the project live at [Project Website](https://www.example.com/project-website).
 
 ## Motivation
 
